@@ -39,8 +39,8 @@ void print(int a, int b, int c) {
 
 int main()
 {
-	int x = 30;
-	int y = 125;
+	int x = 40;
+	int y = 10;
 	if(x > y){print(x,y, func_recur(x, y));}
 	else{std::cout << "Error";}
 }
